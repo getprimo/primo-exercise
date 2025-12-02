@@ -1,0 +1,30 @@
+{
+  "id": "VImwaNTjhX",
+  "firstname": "Antoine",
+  "lastname": "Melki",
+  "zipCode": "75001",
+  "street": "12 rue d'Ici",
+  "city": "Paris",
+  "country": "France",
+  "birthday": "2008-05-20T10:36:37.747Z",
+  "certificates": [
+    {
+      "date": "2014-07-07T10:42:54.532Z",
+      "certificate": {
+        "id": "xWoJB8hWGi",
+        "title": "Economie, commerce et gestion et comptabilité"
+      },
+      "certificateType": {
+        "id": "a88cK7lWHx",
+        "title": "Baccalauréat professionnel"
+      }
+    }
+  ],
+  "languages": [
+    {
+      "id": "GlTo7OXUVG",
+      "title": "French",
+      "level": "Native"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "primo-exercise",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "test": "npm start && npx json-diff expected-out.json out.json && echo \"✅ Validation successful\n\" || echo \"❌ Validation failed\n\""
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "json-diff": "^1.0.6",
+    "zod": "^4.1.13"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "typescript": "^5.9.3"
+  }
+}
