@@ -1,9 +1,10 @@
 import { LoginPage } from './pages/Login';
 import { WelcomePage } from './pages/Welcome';
+import { useAppContext } from './AppContext';
 
 function App() {
   // Handle page display depending on the authentication status
-  const isAuthenticated = false;
+  const { isAuthenticated } = useAppContext();
 
   return (
     <div>
