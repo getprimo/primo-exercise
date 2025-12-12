@@ -1,14 +1,17 @@
-import { createContext, useContext } from "react";
+import { createContext, useContext,useState } from "react";
 
 
 const AppContext = createContext<{
   isAuthenticated: boolean;
+  setIsAuthenticated: (isAuthenticated: boolean) => void;
 }>({
   isAuthenticated: false,
+  setIsAuthenticated: () => {},
 });
 
 export const AppProvider = ({ children }: { children: React.ReactNode }) => {
-  return <AppContext.Provider value={{ isAuthenticated: false }}>{children}</AppContext.Provider>;
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  return <AppContext.Provider value={{ isAuthenticated, setIsAuthenticated }}>{children}</AppContext.Provider>;
 };
 
 export const useAppContext = () => {
