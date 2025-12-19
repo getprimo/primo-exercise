@@ -16,7 +16,7 @@ export const loginApi = async (email: string, password: string): Promise<LoginRe
     setTimeout(() => {
       if (email === 'test@test.com' && password === 'password') {
         resolve({
-          token: 'fake-jwt-token-' + Math.random().toString(36).substr(2),
+          token: 'fake-jwt-token-' + Math.random().toString(36).substring(2),
           user: {
             id: '1',
             name: 'John Doe',
