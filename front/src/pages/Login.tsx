@@ -44,7 +44,7 @@ export const LoginPage = () => {
             />
           </div>
 
-          <button type="submit">
+          <button type="submit" formNoValidate>
             Se connecter
           </button>
         </form>
