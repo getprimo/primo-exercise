@@ -29,16 +29,16 @@ export const LoginPage = () => {
       <FormProvider {...form}>
         <form onSubmit={form.handleSubmit(handleSubmit)}>
           <div>
-            <input 
-              type="email" 
+            <input
+              type="email"
               placeholder="Email"
               {...form.register('email')}
             />
           </div>
-          
+
           <div>
-            <input 
-              type="password" 
+            <input
+              type="password"
               placeholder="Mot de passe"
               {...form.register('password')}
             />
