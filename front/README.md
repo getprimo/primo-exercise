@@ -2,7 +2,7 @@
 
 
 ## Exercise Process
-The exercise must be done via screen sharing. You must use the online editor vscode.dev to edit the code.
+The exercise must be done via screen sharing. You must use the online editor [vscode.dev](https://vscode.dev/) to edit the code.
 
 The script execution is done on the user's terminal.
 
